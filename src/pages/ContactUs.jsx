@@ -28,13 +28,19 @@ const ContactUs = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4">
             <a href="#" className="text-indigo-500 hover:text-indigo-700">
-              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                <path d="M8 3a5 5 0 00-5 5v.5A2.5 2.5 0 0014 18h2a2.5 2.5 0 002.453-7H16a5 5 0 00-4-5zm0-.5A5.5 5.5 0 0113.5 8H11V3z" />
+              </svg>
             </a>
             <a href="#" className="text-pink-500 hover:text-pink-700">
-            
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10C22 6.477 17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z" />
+              </svg>
             </a>
             <a href="#" className="text-cyan-500 hover:text-cyan-700">
-              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10C22 6.477 17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -109,7 +115,7 @@ const ContactUs = () => {
             </div>
             <button
               type="submit"
-              className="bg-pink-500 text-white font-bold py-2 px-4 rounded hover:bg-pink-600 transition-colors cursor-pointer"
+              className="bg-pink-500 text-white font-bold py-2 px-4 rounded hover:bg-pink-600 transition-colors"
             >
               Send Mail
             </button>
